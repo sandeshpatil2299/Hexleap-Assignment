@@ -20,7 +20,7 @@ const FirstSection = () => {
             {/* card container */}
             <div className='flex overflow-scroll gap-2 md:justify-between mt-2 md:p-0 md:mt-7 md:overflow-hidden'>
                 {/* card one */}
-                <div className='card w-[237px] h-[511px] dark:bg-dark-two'>
+                <div className='cardM w-[237px] h-[511px] dark:bg-dark-two'>
                     <div className='p-3 flex flex-col justify-between h-full'>
                         <Image src={img1} alt='' />
                         <h1 className='font-medium text-black font-inter dark:text-white text-[17px]'>Sacramento River Cats</h1>
@@ -39,7 +39,7 @@ const FirstSection = () => {
                 </div>  
 
                 {/* card two */}
-                <div className='card w-[237px] h-[511px] bg-white dark:bg-dark-two'>
+                <div className='cardM w-[237px] h-[511px] bg-white dark:bg-dark-two'>
                     <div className='p-3 flex flex-col justify-between h-full'>
                         <Image src={img2} alt='' />
                         <h1 className='font-medium text-black font-inter dark:text-white text-[17px]'>Las Vegas Aviators</h1>
@@ -58,7 +58,7 @@ const FirstSection = () => {
                 </div>
 
                 {/* card three */}
-                <div className='card w-[237px] md:h-[511px] bg-white dark:bg-dark-two'>
+                <div className='cardM w-[237px] md:h-[511px] bg-white dark:bg-dark-two'>
                     <div className='p-3 flex flex-col justify-between h-full'>
                         <Image src={img3} alt='' />
                         <h1 className='font-medium text-black font-inter dark:text-white text-[17px]'>new jersey devils</h1>
@@ -77,7 +77,7 @@ const FirstSection = () => {
                 </div>
 
                 {/* card four */}
-                <div className='card w-[237px] h-[511px] bg-white dark:bg-dark-two'>
+                <div className='cardM w-[237px] h-[511px] bg-white dark:bg-dark-two'>
                     <div className='p-3 flex flex-col justify-between h-full'>
                         <Image src={img4} alt='' />
                         <h1 className='font-medium text-black font-inter dark:text-white text-[17px]'>Las Vegas Aviators</h1>
@@ -96,7 +96,7 @@ const FirstSection = () => {
                 </div>
 
                 {/* card five */}
-                <div className='card w-[237px] h-[511px] bg-white dark:bg-dark-two'>
+                <div className='cardM w-[237px] h-[511px] bg-white dark:bg-dark-two'>
                     <div className='p-3 flex flex-col h-full w-[237px]'>
                         <div className='relative'>
                             <Image src={img5} alt='' />

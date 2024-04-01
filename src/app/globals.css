@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @apply transition-colors duration-300;  
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05);
+}
+
+.bShadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05);
+}
+
+
+.carouselCard::before {
+  content: "";
+  width: 25px;
+  height: 25px;
+  background: linear-gradient(184deg, rgba(24, 40, 42, 1) 0%, rgba(34, 26, 44, 1) 20%);
+  border-radius: 50%;
+  position: absolute;
+  bottom: 29%;
+  left: -6%;
+  z-index: 10;
+}
+
+.dashedBorder::after {
+  content: '- - - - - - - - - - - - - - - -';
+  letter-spacing: 1px;
+  color: #818A97;
+  position: absolute;
+  top: 66.5%;
+  left: 8%;
+}
+
+.carouselCard::after {
+  content: "";
+  width: 25px;
+  height: 25px;
+  background: linear-gradient(184deg, rgba(24, 40, 42, 1) 0%, rgba(34, 26, 44, 1) 20%);
+  border-radius: 50%;
+  position: absolute;
+  bottom: 29%;
+  right: -6%;
+  z-index: 10;
+}
